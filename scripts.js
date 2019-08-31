@@ -42,3 +42,10 @@ function displayVerseText(){
     var verse_el = document.getElementById('scripture_text');
     verse_el.innerHTML = text
 }
+
+function resetChase(){
+    var verse_el = document.getElementById('scripture_text');
+    verse_el.innerHTML = ""
+    var ref_el = document.getElementById('reference');
+    ref_el.innerHTML = ""
+}
