@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ovo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="style.css">
     <title>Scripture Chase</title>
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
     <h1>Scripture Chase</h1>
-    <button onclick="getRandomVerse()">New Verse</button>
+    <div class="divbutton">
+        <button onclick="getRandomVerse()" class="small button">New Verse</button>
+    </div>
     <div id="reference" class="scripture">
 
     </div>
-    <button onclick="displayVerseText()">Display Text</button>
+    <div class="divbutton">
+        <button onclick="displayVerseText()" class="small button">Display Text</button>
+    </div>
     <div id="scripture_text" class="scripture">
 
     </div>
-    <button onclick="resetChase()">Reset</button>
+    <div class="divbutton">
+        <button onclick="resetChase()" class="small button">Reset</button>
+    </div>
+    
 </body>
 </html>
